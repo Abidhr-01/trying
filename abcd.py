@@ -82,6 +82,8 @@ header, footer {visibility: hidden;}
 # --- Greeting ---
 st.markdown(f'<h1 style="font-size: 3em; color: #FFD700; text-align: center; font-weight: 900;">👑 Hi Ma amr! 👑</h1>', unsafe_allow_html=True)
 st.markdown('<div class="main-title">From Your Nalayek Friend which is me to you!!!</div>', unsafe_allow_html=True)
+
+st.markdown('<div class="main-title">🥰But its true that I LOVE YOU. You are my best friend.❤️</div>', unsafe_allow_html=True)
 st.markdown(f'<div class="friend-name">🎉 {FRIEND_NAME.upper()} 👑</div>', unsafe_allow_html=True)
 st.markdown("---")
 
@@ -115,3 +117,4 @@ else:
         f'<p style="font-size: 1.2em; text-align: center; color: #999999; margin-top: 3em;">Take a selfie to unlock your fortune!</p>',
         unsafe_allow_html=True
     )
+
